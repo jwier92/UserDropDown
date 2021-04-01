@@ -18,7 +18,7 @@ const handleDocumentClick = (e) => {
         if (e.target.closest("#divUserMenu") == null) {
             divUserMenu.classList.remove("active")
         }
-    }
+    } 
 }
 
 btnToggleSideMenu.addEventListener("click", toggleSidebar)
